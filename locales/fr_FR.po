@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wlib/skeleton\n"
+"POT-Creation-Date: 2025-06-27 23:26+0200\n"
+"PO-Revision-Date: 2025-06-27 23:29+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_n;_x;_nx\n"
+"X-Poedit-SearchPath-0: app\n"
+"X-Poedit-SearchPath-1: templates\n"
+
+#: templates/index.html.php:72
+msgid "Welcome to"
+msgstr "Bienvenue dans"
+
+#: templates/index.html.php:76
+msgid ""
+"You are seeing the default home page, feel free to code your next "
+"application !"
+msgstr ""
+"Vous consultez la page d'accueil par défaut, vous pouvez coder "
+"votre prochaine application !"
+
+#: templates/index.html.php:78
+msgid "This page is rendered thanks to :"
+msgstr "Cette page est générée grâce à :"
+
+#: templates/index.html.php:81
+msgid "one controller"
+msgstr "un contrôleur"
+
+#: templates/index.html.php:82
+msgid "and one view"
+msgstr "et une vue"
+
+#: templates/index.html.php:85
+msgid "Happy coding !"
+msgstr "Bon codage !"

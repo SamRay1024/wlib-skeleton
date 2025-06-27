@@ -1,0 +1,7 @@
+.vscode
+.env
+/public/vendor
+/storage/cache/*.*
+/storage/logs/*.*
+/storage/*.*
+/vendor

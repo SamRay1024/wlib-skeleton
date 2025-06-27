@@ -1,0 +1,17 @@
+{
+    "name": "wlib/skeleton",
+    "description": "Web application skeleton based on wlib/application.",
+    "type": "project",
+    "keywords": ["web", "application", "skeleton", "wlib"],
+    "license": "CECILL-2.1",
+    "authors": [
+        {
+            "name": "Cédric Ducarre",
+            "email": "samray1024@ik.me"
+        }
+    ],
+    "require": {
+        "wlib/application": "dev-main",
+        "wlib/http-client": "^1.0"
+    }
+}

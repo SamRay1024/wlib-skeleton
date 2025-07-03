@@ -11,7 +11,13 @@
         }
     ],
     "require": {
-        "wlib/application": "dev-main",
+        "wlib/application": "0.*",
         "wlib/http-client": "^1.0"
+    },
+    "scripts": {
+        "serve": [
+            "Composer\\Config::disableProcessTimeout",
+            "php -S localhost:8000 -t public"
+        ]
     }
 }

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wlib/skeleton\n"
-"POT-Creation-Date: 2025-06-27 23:26+0200\n"
-"PO-Revision-Date: 2025-06-27 23:29+0200\n"
+"POT-Creation-Date: 2025-07-04 20:59+0200\n"
+"PO-Revision-Date: 2025-07-04 20:59+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Generator: Poedit 3.4.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_n;_x;_nx\n"
+"X-Poedit-KeywordsList: __;_n;_x;_nx;_s\n"
 "X-Poedit-SearchPath-0: app\n"
 "X-Poedit-SearchPath-1: templates\n"
 
@@ -21,25 +21,66 @@ msgid "Welcome to"
 msgstr "Bienvenue dans"
 
 #: templates/index.html.php:76
+msgid "Your new app is ready to get alive !"
+msgstr "Votre nouvelle application est prête à prendre vie !"
+
+#: templates/index.html.php:78
 msgid ""
 "You are seeing the default home page, feel free to code your next "
 "application !"
 msgstr ""
-"Vous consultez la page d'accueil par défaut, vous pouvez coder "
-"votre prochaine application !"
+"Vous consultez la page d'accueil par défaut, vous pouvez coder votre "
+"prochaine application !"
 
-#: templates/index.html.php:78
+#: templates/index.html.php:80
 msgid "This page is rendered thanks to :"
 msgstr "Cette page est générée grâce à :"
 
-#: templates/index.html.php:81
+#: templates/index.html.php:83
 msgid "one controller"
 msgstr "un contrôleur"
 
-#: templates/index.html.php:82
+#: templates/index.html.php:84
 msgid "and one view"
 msgstr "et une vue"
 
-#: templates/index.html.php:85
+#: templates/index.html.php:87
+#, php-format
+msgid "Kernel version : %s"
+msgstr "Version du noyau :  %s"
+
+#: templates/index.html.php:89
+msgid "Quick start"
+msgstr "Démarrage rapide"
+
+#: templates/index.html.php:92
+msgid ""
+"In <strong>wlib/skeleton</strong>, there is no route file where to declare "
+"them. To add a new route, just add a new controller in <code>/app/"
+"Controllers</code>."
+msgstr ""
+"Dans <strong>wlib/skeleton</strong>, il n'y a pas de fichier de routes où "
+"les déclarer. Pour ajouter une nouvelle route, ajoutez simplement un nouveau "
+"contrôleur dans <code>/app/Controllers</code>."
+
+#: templates/index.html.php:95
+msgid ""
+"Example : add <code>/app/Controllers/Hello/WorldController.php</code> and "
+"you get a new page accessible from <code>http://localhost:8000/hello/world</"
+"code>. Easy, isn't it?"
+msgstr ""
+"Exemple : ajoutez <code>/app/Controllers/Hello/WorldController.php</code> et "
+"vous obtiendrez une page accessible depuis <code>http://localhost:8000/hello/"
+"world</code>. Facile, non ?"
+
+#: templates/index.html.php:98
+msgid ""
+"See next in <code>IndexController.php</code> to know how to write your "
+"controller."
+msgstr ""
+"Voyez ensuite dans <code>IndexController.php</code> pour savoir comment "
+"écrire votre contrôleur."
+
+#: templates/index.html.php:100
 msgid "Happy coding !"
 msgstr "Bon codage !"

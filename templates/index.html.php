@@ -73,6 +73,8 @@
 		</header>
 
 		<section class="mal">
+			<h2>✨ <?= __('Your new app is ready to get alive !') ?> ✨</h2>
+
 			<p><?= __('You are seeing the default home page, feel free to code your next application !') ?></p>
 
 			<p>✅ <?= __('This page is rendered thanks to :') ?></p>
@@ -82,7 +84,20 @@
 				<li><?= __('and one view') ?>, <code>/templates/index.html.php</code>.</li>
 			</ul>
 
-			<p class="h4"><?= __('Happy coding !') ?></p>
+			<p><?= _s('Kernel version : %s', $kernel_version) ?></p>
+
+			<h2><?= __('Quick start') ?></h2>
+
+			<p><?= __(
+				'In <strong>wlib/skeleton</strong>, there is no route file where to declare them. '
+				.'To add a new route, just add a new controller in <code>/app/Controllers</code>.') ?></p>
+
+			<p><?= __('Example : add <code>/app/Controllers/Hello/WorldController.php</code> and you get a new page'
+				.' accessible from <code>http://localhost:8000/hello/world</code>. Easy, isn\'t it?') ?></p>
+
+			<p><?= __('See next in <code>IndexController.php</code> to know how to write your controller.') ?></p>
+
+			<p class="h4"><?= __('Happy coding !') ?> 🚀</p>
 		</section>
 	</div>
 </body>

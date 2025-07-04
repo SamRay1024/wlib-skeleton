@@ -10,4 +10,6 @@ Démarrer votre futur projet web avec ce pack de démarrage basé sur [wlib/appl
 
 ```shell
 composer create-project wlib/skeleton my-next-app
+cd my-next-app
+composer serve
 ```

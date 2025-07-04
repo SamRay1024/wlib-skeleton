@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a07daa648f2ed10f573a09c4f2a7ae8",
+    "content-hash": "ef538894c6adc8d50bd1ae95aa057609",
     "packages": [
         {
             "name": "itsgoingd/clockwork",
@@ -361,16 +361,16 @@
         },
         {
             "name": "wlib/application",
-            "version": "dev-main",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SamRay1024/wlib-application.git",
-                "reference": "5f809b17f66c2778fbf26f8685dd30ce9fedd124"
+                "reference": "3d3d1443b2cda04394679820f60c1c932cf3a4b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SamRay1024/wlib-application/zipball/5f809b17f66c2778fbf26f8685dd30ce9fedd124",
-                "reference": "5f809b17f66c2778fbf26f8685dd30ce9fedd124",
+                "url": "https://api.github.com/repos/SamRay1024/wlib-application/zipball/3d3d1443b2cda04394679820f60c1c932cf3a4b6",
+                "reference": "3d3d1443b2cda04394679820f60c1c932cf3a4b6",
                 "shasum": ""
             },
             "require": {
@@ -385,7 +385,6 @@
             "require-dev": {
                 "pestphp/pest": "^2.5"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -412,9 +411,9 @@
             ],
             "support": {
                 "issues": "https://github.com/SamRay1024/wlib-application/issues",
-                "source": "https://github.com/SamRay1024/wlib-application/tree/main"
+                "source": "https://github.com/SamRay1024/wlib-application/tree/v0.1.0"
             },
-            "time": "2025-06-15T21:32:41+00:00"
+            "time": "2025-06-26T22:43:11+00:00"
         },
         {
             "name": "wlib/db",
@@ -782,9 +781,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "wlib/application": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

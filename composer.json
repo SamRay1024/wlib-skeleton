@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "wlib/application": "0.*",
+        "wlib/application": "^0.1",
         "wlib/http-client": "^1.0"
     },
     "scripts": {

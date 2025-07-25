@@ -2,7 +2,7 @@
 
 # wlib/skeleton
 
-Démarrer votre futur projet web avec ce pack de démarrage basé sur [wlib/application](https://github.com/SamRay1024/wlib-application).
+Démarrez votre futur projet web avec ce pack de démarrage basé sur [wlib/application](https://github.com/SamRay1024/wlib-application).
 
 ## Prérequis
 

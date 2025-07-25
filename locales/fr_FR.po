@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wlib/skeleton\n"
-"POT-Creation-Date: 2025-07-04 20:59+0200\n"
-"PO-Revision-Date: 2025-07-04 20:59+0200\n"
+"POT-Creation-Date: 2025-07-25 20:22+0200\n"
+"PO-Revision-Date: 2025-07-25 20:22+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -16,15 +16,15 @@ msgstr ""
 "X-Poedit-SearchPath-0: app\n"
 "X-Poedit-SearchPath-1: templates\n"
 
-#: templates/index.html.php:72
+#: templates/welcome.html.php:96
 msgid "Welcome to"
 msgstr "Bienvenue dans"
 
-#: templates/index.html.php:76
+#: templates/welcome.html.php:100
 msgid "Your new app is ready to get alive !"
 msgstr "Votre nouvelle application est prête à prendre vie !"
 
-#: templates/index.html.php:78
+#: templates/welcome.html.php:102
 msgid ""
 "You are seeing the default home page, feel free to code your next "
 "application !"
@@ -32,28 +32,23 @@ msgstr ""
 "Vous consultez la page d'accueil par défaut, vous pouvez coder votre "
 "prochaine application !"
 
-#: templates/index.html.php:80
+#: templates/welcome.html.php:104
 msgid "This page is rendered thanks to :"
 msgstr "Cette page est générée grâce à :"
 
-#: templates/index.html.php:83
+#: templates/welcome.html.php:107
 msgid "one controller"
 msgstr "un contrôleur"
 
-#: templates/index.html.php:84
+#: templates/welcome.html.php:108
 msgid "and one view"
 msgstr "et une vue"
 
-#: templates/index.html.php:87
-#, php-format
-msgid "Kernel version : %s"
-msgstr "Version du noyau :  %s"
-
-#: templates/index.html.php:89
+#: templates/welcome.html.php:111
 msgid "Quick start"
 msgstr "Démarrage rapide"
 
-#: templates/index.html.php:92
+#: templates/welcome.html.php:114
 msgid ""
 "In <strong>wlib/skeleton</strong>, there is no route file where to declare "
 "them. To add a new route, just add a new controller in <code>/app/"
@@ -63,7 +58,7 @@ msgstr ""
 "les déclarer. Pour ajouter une nouvelle route, ajoutez simplement un nouveau "
 "contrôleur dans <code>/app/Controllers</code>."
 
-#: templates/index.html.php:95
+#: templates/welcome.html.php:117
 msgid ""
 "Example : add <code>/app/Controllers/Hello/WorldController.php</code> and "
 "you get a new page accessible from <code>http://localhost:8000/hello/world</"
@@ -73,7 +68,7 @@ msgstr ""
 "vous obtiendrez une page accessible depuis <code>http://localhost:8000/hello/"
 "world</code>. Facile, non ?"
 
-#: templates/index.html.php:98
+#: templates/welcome.html.php:120
 msgid ""
 "See next in <code>IndexController.php</code> to know how to write your "
 "controller."
@@ -81,6 +76,94 @@ msgstr ""
 "Voyez ensuite dans <code>IndexController.php</code> pour savoir comment "
 "écrire votre contrôleur."
 
-#: templates/index.html.php:100
+#: templates/welcome.html.php:122
 msgid "Happy coding !"
 msgstr "Bon codage !"
+
+#: templates/welcome.html.php:126
+msgid "Technical info"
+msgstr "Informations techniques"
+
+#: templates/welcome.html.php:129
+msgid "General information"
+msgstr "Informations générales"
+
+#: templates/welcome.html.php:130
+msgid "Time"
+msgstr "Date, heure"
+
+#: templates/welcome.html.php:131
+msgid "Kernel version"
+msgstr "Version du noyau"
+
+#: templates/welcome.html.php:132
+msgid "Base URI"
+msgstr "URI de base"
+
+#: templates/welcome.html.php:136
+msgid "Request"
+msgstr "Requête"
+
+#: templates/welcome.html.php:137
+msgid "IP"
+msgstr "IP"
+
+#: templates/welcome.html.php:138
+msgid "Method"
+msgstr "Verbe"
+
+#: templates/welcome.html.php:139
+msgid "Original method"
+msgstr "Verbe original"
+
+#: templates/welcome.html.php:140
+msgid "URI"
+msgstr "URI"
+
+#: templates/welcome.html.php:144
+msgid "Headers"
+msgstr "Entêtes"
+
+#: templates/welcome.html.php:148 templates/welcome.html.php:157
+#: templates/welcome.html.php:166 templates/welcome.html.php:175
+#: templates/welcome.html.php:184 templates/welcome.html.php:193
+#: templates/welcome.html.php:202 templates/welcome.html.php:208
+#: templates/welcome.html.php:213
+msgid "Empty"
+msgstr "Vide"
+
+#: templates/welcome.html.php:153
+msgid "Arguments"
+msgstr "Arguments"
+
+#: templates/welcome.html.php:162
+msgid "Parameters"
+msgstr "Paramètres"
+
+#: templates/welcome.html.php:171
+msgid "Data"
+msgstr "Données"
+
+#: templates/welcome.html.php:180
+msgid "Files"
+msgstr "Fichiers"
+
+#: templates/welcome.html.php:189
+msgid "Session"
+msgstr "Session"
+
+#: templates/welcome.html.php:198
+msgid "Cookies"
+msgstr "Cookies"
+
+#: templates/welcome.html.php:207
+msgid "Raw parameters"
+msgstr "Paramètres bruts"
+
+#: templates/welcome.html.php:208 templates/welcome.html.php:213
+msgid "Value"
+msgstr "Valeur"
+
+#: templates/welcome.html.php:212
+msgid "Raw data"
+msgstr "Données brutes"

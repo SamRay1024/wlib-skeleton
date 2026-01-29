@@ -67,6 +67,7 @@
 		{
 			padding: 6px;
 			background-color: #5bb15f;
+			border-bottom: 3px solid #388e3c;
 			color: white;
 			font-style: normal;
 			text-align: left;
@@ -74,6 +75,9 @@
 		caption code {
 			float: right;
 			font-size: .8em;
+		}
+		th {
+			background-color: #f4fdf5ff;
 		}
 		td, th {
 			padding: 0.2em .5em;
@@ -85,6 +89,10 @@
 		}
 		td em {
 			color: #7f8c8d;
+		}
+
+		.wtable-bordered, .wtable-bordered td, .wtable-bordered th {
+			border-color: #efefef;
 		}
 	</style>
 </head>

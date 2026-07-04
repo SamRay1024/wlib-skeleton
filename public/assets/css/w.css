@@ -858,8 +858,8 @@ th { background-color: #e0e0e0; }
 /* Horizontal bordered */
 .wtable-bordered-hrz td,
 .wtable-bordered-hrz th {
-    border-width: 0 0 1px 0;
-    border-bottom: 1px solid #c0c0c0;
+	border-width: 0 0 1px 0;
+	border-bottom: 1px solid #c0c0c0;
 }
 .wtable-bordered-hrz tbody > tr:last-child > td { border-bottom-width: 0; }
 

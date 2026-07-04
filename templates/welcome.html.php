@@ -27,8 +27,16 @@
 			color: #2e7d32;
 		}
 
+		h2 {
+			font-size: 1.3em;
+		}
+
+		.slash,
+		.feature-badge {
+			color: #34d17e;
+		}
 		.small {
-			font-size: 1.2em;
+			font-size: .8em;
 			color: #388e3c;
 		}
 
@@ -38,7 +46,7 @@
 		}
 
 		section {
-			background-color: white;
+			background-color: #fff;
 			padding: 20px;
 			border-radius: 10px;
 			margin: 20px 0;
@@ -48,10 +56,15 @@
 			color: #2e7d32;
 		}
 
+		ul {
+			list-style-type: none;
+		}
+
 		code {
 			background-color: #f1f8e9;
 			padding: 2px 5px;
-			border-radius: 3px;
+			border-radius: 5px;
+			font-size: .95em;
 		}
 
 		.h4 {
@@ -60,7 +73,8 @@
 		}
 
 		section {
-			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+			border: 1px solid #dbe8db;
+			border-radius: 10px;
 		}
 
 		caption
@@ -101,21 +115,22 @@
 	<div class="w960p center">
 		
 		<header class="mal">
-			<h1><span class="small">👋 <?= __('Welcome to') ?></span><br /><span class="big">wlib/skeleton</span></h1>
+			<h1><span class="small">👋 <?= __('Welcome to') ?></span><br /><span class="big">wlib<span class="slash">/</span>skeleton</span></h1>
+			<h2>✨ <?= __('Your new app is ready to get alive !') ?> ✨</h2>
 		</header>
 
-		<section class="mal">
-			<h2>✨ <?= __('Your new app is ready to get alive !') ?> ✨</h2>
-
+		<section class="mam">
 			<p><?= __('You are seeing the default home page, feel free to code your next application !') ?></p>
 
 			<p>✅ <?= __('This page is rendered thanks to :') ?></p>
 			
-			<ul>
-				<li><?= __('one controller') ?>, <code>/app/Controllers/WelcomeController.php</code>,
-				<li><?= __('and one view') ?>, <code>/templates/welcome.html.php</code>.</li>
+			<ul class="pan">
+				<li class="mam"><span class="feature-badge">→</span> <?= __('one controller') ?> : <code>/app/Controllers/WelcomeController.php</code></li>
+				<li class="mam"><span class="feature-badge">→</span> <?= __('and one view') ?> : <code>/templates/welcome.html.php</code></li>
 			</ul>
+		</section>
 
+		<section class="mam">
 			<h2><?= __('Quick start') ?></h2>
 
 			<p><?= __(
@@ -127,10 +142,10 @@
 
 			<p><?= __('See next in <code>IndexController.php</code> to know how to write your controller.') ?></p>
 
-			<p class="h4"><?= __('Happy coding !') ?> 🚀</p>
+			<p class="h4 tce mtl mbm"><?= __('Happy coding !') ?> 🚀</p>
+		</section>
 
-			<hr size="1" style="border-color:#e8f5e9">
-
+		<section class="mam">
 			<h2>⚙️ <?= __('Technical info') ?></h2>
 
 			<table class="w100 wtable-bordered">

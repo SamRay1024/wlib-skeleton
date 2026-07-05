@@ -1,4 +1,4 @@
-<img width="948" height="570" alt="image" src="https://github.com/user-attachments/assets/2001c3c0-8556-419e-afe1-61a0f34d2bee" />
+<img width="952" height="509" alt="image" src="https://github.com/user-attachments/assets/cdddd6ab-c742-4953-ad0e-d937d487b69a" />
 
 # wlib/skeleton
 

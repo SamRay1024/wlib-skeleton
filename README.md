@@ -6,7 +6,7 @@ Démarrez votre futur projet web avec ce pack de démarrage basé sur [wlib/appl
 
 ## Prérequis
 
-- PHP 7.1.0
+- PHP 7.4.0
 
 ## Installation
 
